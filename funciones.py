@@ -1,5 +1,7 @@
 def resta(a,b):
     return a-b
+def mensaje (x):
+    print("ALERTA: ",x)
 def producto(a: int,b: int) -> int:
     return a*b
 def saludo(a: str )-> str:
@@ -18,3 +20,4 @@ despedida("Carlos")
 print(saludo("Carlos"))
 print(producto(5,2))
 print(resta(5,2))
+mensaje ("enemigo acercandose")
